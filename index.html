@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Çocukla Sinema Keyfi</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+<body>
+    <!--!----NAVBAR------>
+    <div class="navbar">
+        <div class="navbar-wrapper">
+            <div class="logo-wrapper">
+                <a href="#"><h1 class="logo">ÇOCUKLA SİNEMA KEYFİ</h1></a>
+            </div>
+            <div class="menu-container">
+                <i class="bi bi-list"></i>
+                <ul class="menu-list">
+                    <li class="menu-list-item active">4+ Yaş Film Önerileri</li>
+                    <li class="menu-list-item">8+ Yaş Film Önerileri</li>
+                    <li class="menu-list-item">Sinemadan Haberler</li>
+                </ul>
+            </div>
+            <div class="profile-container">
+                <img class="profile-picture" src="images/profile.jpg" alt="">
+                <div class="profile-text-container">
+                    <a href="#"><span class="profile-tex">Hesabım</span><i class="bi bi-caret-down-fill"></i></a>
+                    <div class="profile-options">
+                        <a href="#">Kişisel Bilgiler</a>
+                        <a href="#">Listelerim</a>
+                        <a href="#">Hesabı Kapat</a>
+                    </div>
+                </div>
+                <div class="toggle">
+                    <i class="bi bi-moon-fill toggle-icon"></i>
+                    <i class="bi bi-brightness-high-fill toggle-icon" title=""></i>
+                    <div class="toggle-ball"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--!----SIDEBAR------>
+    <div class="sidebar">
+        <a href="#"><i class="bi bi-search"></i></a>
+        <a href="#"><i class="bi bi-house-door-fill"></i></a>
+        <a href="#"><i class="bi bi-people-fill"></i></a>
+        <a href="#"><i class="bi bi-bookmarks-fill"></i></a>
+        <a href="#"><i class="bi bi-hourglass-top"></i></a>
+        <a href="#"><i class="bi bi-cart"></i></a>
+        <a href="#"><i class="bi bi-gear"></i></a>
+    </div>
+    <!--!----CONTENT------>
+    <div class="container">
+        <!------Featured Content------>
+        <div class="content-wrapper">
+            <div class="featured-content">
+                <img src="images/spiderman-title.png" alt="">
+                <p class="featured-desc">
+                    Spider-Man: Into the Spider-Verse, radyoaktif bir örümcek tarafından ısırılmasıyla bambaşka bir dünyaya adım atıp, özel yeteneklerle donanan Miles Morales'in maceralarını konu ediyor. Gwen Stacy ile yeniden bir araya gelen Miles, Çoklu Evrenleri geçer. Miles bu sırada ne olursa olsun orayı korumakla yükümlü olan Örümcek - İnsanlarla karşılaşır. Büyük bir tehdit ile karşı karşıya olan kahramanlar, ne yapacaklarını bilemeyince Miles, kendisini diğer Örümcekler’in karşısında bulur. Miles, en sevdiği insanları büyük bir tehdite karşı koruyabilmek için yeteneklerini kullanmak zorundadır. 
+                </p>
+                <div class="featured-buttons">
+                    <button class="play-button">
+                        <i class="bi bi-play-circle"></i>
+                        Oynat
+                    </button>
+                    <button class="info-button">
+                        <i class="bi bi-info-circle"></i>
+                        Daha fazla bilgi...
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!------Filter Start------>
+        <div class="movie-list-filter">
+            <select>
+                <option>Bilim Kurgu</option>
+                <option>Fantastik</option>
+                <option>Komedi</option>
+                <option>Kısa Film</option>
+            </select>
+        </div>
+        <!------Movie List------>
+        <div class="movie-list-container">
+            <h1 class="movie-list-title">En populerler</h1>
+            <div class="movie-list-wrapper">
+                <ul class="movie-list">
+                    <li class="movie-item">
+                        <img class="movie-item-img" src="images/f1.jpg" alt="">
+                        <div class="movie-item-info">
+                            <span class="movie-item-title">ENKANTO Sihirli Dünya</span>
+                            <div class="movie-item-buttons">
+                                <i class="bi bi-play-circle-fill"></i>
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                <i class="bi bi-hand-thumbs-down-fill"></i>
+                                <i class="bi bi-plus-circle-fill"></i>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="movie-item">
+                        <img class="movie-item-img" src="images/f2.jpg" alt="">
+                        <div class="movie-item-info">
+                            <span class="movie-item-title">Ters Yüz</span>
+                            <div class="movie-item-buttons">
+                                <i class="bi bi-play-circle-fill"></i>
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                <i class="bi bi-hand-thumbs-down-fill"></i>
+                                <i class="bi bi-plus-circle-fill"></i>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="movie-item">
+                        <img class="movie-item-img" src="images/f3.jpg" alt="">
+                        <div class="movie-item-info">
+                            <span class="movie-item-title">Kaptan Pengu ve Arkadaşları </span>
+                            <div class="movie-item-buttons">
+                                <i class="bi bi-play-circle-fill"></i>
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                <i class="bi bi-hand-thumbs-down-fill"></i>
+                                <i class="bi bi-plus-circle-fill"></i>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="movie-item">
+                        <img class="movie-item-img" src="images/f4.jpg" alt="">
+                        <div class="movie-item-info">
+                            <span class="movie-item-title">OYUNCAK HİKAYESİ</span>
+                            <div class="movie-item-buttons">
+                                <i class="bi bi-play-circle-fill"></i>
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                <i class="bi bi-hand-thumbs-down-fill"></i>
+                                <i class="bi bi-plus-circle-fill"></i>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="movie-item">
+                        <img class="movie-item-img" src="images/f5.jpg" alt="">
+                        <div class="movie-item-info">
+                            <span class="movie-item-title">Moana</span>
+                            <div class="movie-item-buttons">
+                                <i class="bi bi-play-circle-fill"></i>
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                <i class="bi bi-hand-thumbs-down-fill"></i>
+                                <i class="bi bi-plus-circle-fill"></i>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="movie-item">
+                        <img class="movie-item-img" src="images/f6.jpg" alt="">
+                        <div class="movie-item-info">
+                            <span class="movie-item-title">A.R.O.G</span>
+                            <div class="movie-item-buttons">
+                                <i class="bi bi-play-circle-fill"></i>
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                <i class="bi bi-hand-thumbs-down-fill"></i>
+                                <i class="bi bi-plus-circle-fill"></i>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="movie-item">
+                        <img class="movie-item-img" src="images/f7.jpg" alt="">
+                        <div class="movie-item-info">
+                            <span class="movie-item-title">DARK</span>
+                            <div class="movie-item-buttons">
+                                <i class="bi bi-play-circle-fill"></i>
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                <i class="bi bi-hand-thumbs-down-fill"></i>
+                                <i class="bi bi-plus-circle-fill"></i>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <i class="bi bi-chevron-right arrow"></i>
+            </div>
+        </div>
+        <div class="movie-list-container">
+            <h1 class="movie-list-title">Ergenle Film Saati</h1>
+            <div class="movie-list-wrapper">
+                <ul class="movie-list">
+                    <li class="movie-item">
+                        <img class="movie-item-img" src="images/f7.jpg" alt="">
+                        <div class="movie-item-info">
+                            <span class="movie-item-title">Umudunu kaybetme</span>
+                            <div class="movie-item-buttons">
+                                <i class="bi bi-play-circle-fill"></i>
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                <i class="bi bi-hand-thumbs-down-fill"></i>
+                                <i class="bi bi-plus-circle-fill"></i>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="movie-item">
+                        <img class="movie-item-img" src="images/f8.jpg" alt="">
+                        <div class="movie-item-info">
+                            <span class="movie-item-title">Sözcüklerin Gücü</span>
+                            <div class="movie-item-buttons">
+                                <i class="bi bi-play-circle-fill"></i>
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                <i class="bi bi-hand-thumbs-down-fill"></i>
+                                <i class="bi bi-plus-circle-fill"></i>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="movie-item">
+                        <img class="movie-item-img" src="images/f9.jpg" alt="">
+                        <div class="movie-item-info">
+                            <span class="movie-item-title">Küçük Prens (Le Petit Prince)</span>
+                            <div class="movie-item-buttons">
+                                <i class="bi bi-play-circle-fill"></i>
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                <i class="bi bi-hand-thumbs-down-fill"></i>
+                                <i class="bi bi-plus-circle-fill"></i>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="movie-item">
+                        <img class="movie-item-img" src="images/f10.jpg" alt="">
+                        <div class="movie-item-info">
+                            <span class="movie-item-title">Sevginin Gücü</span>
+                            <div class="movie-item-buttons">
+                                <i class="bi bi-play-circle-fill"></i>
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                <i class="bi bi-hand-thumbs-down-fill"></i>
+                                <i class="bi bi-plus-circle-fill"></i>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="movie-item">
+                        <img class="movie-item-img" src="images/f11.jpg" alt="">
+                        <div class="movie-item-info">
+                            <span class="movie-item-title">Kağıttan Uçaklar (Paper Planet)</span>
+                            <div class="movie-item-buttons">
+                                <i class="bi bi-play-circle-fill"></i>
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                <i class="bi bi-hand-thumbs-down-fill"></i>
+                                <i class="bi bi-plus-circle-fill"></i>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="movie-item">
+                        <img class="movie-item-img" src="images/f12.jpg" alt="">
+                        <div class="movie-item-info">
+                            <span class="movie-item-title">Hıçkırık (Hichki)</span>
+                            <div class="movie-item-buttons">
+                                <i class="bi bi-play-circle-fill"></i>
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                <i class="bi bi-hand-thumbs-down-fill"></i>
+                                <i class="bi bi-plus-circle-fill"></i>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="movie-item">
+                        <img class="movie-item-img" src="images/f13.jpg" alt="">
+                        <div class="movie-item-info">
+                            <span class="movie-item-title">Beyaz Diş (White Fang)</span>
+                            <div class="movie-item-buttons">
+                                <i class="bi bi-play-circle-fill"></i>
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                <i class="bi bi-hand-thumbs-down-fill"></i>
+                                <i class="bi bi-plus-circle-fill"></i>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <i class="bi bi-chevron-right arrow"></i>
+            </div>
+        </div>
+        <div class="movie-list-container">
+            <h1 class="movie-list-title">Aile Saati</h1>
+            <div class="movie-list-wrapper">
+                <ul class="movie-list">
+                    <li class="movie-item">
+                        <img class="movie-item-img" src="images/f13.jpg" alt="">
+                        <div class="movie-item-info">
+                            <span class="movie-item-title">Beyaz Diş (White Fang)</span>
+                            <div class="movie-item-buttons">
+                                <i class="bi bi-play-circle-fill"></i>
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                <i class="bi bi-hand-thumbs-down-fill"></i>
+                                <i class="bi bi-plus-circle-fill"></i>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="movie-item">
+                        <img class="movie-item-img" src="images/f14.jpg" alt="">
+                        <div class="movie-item-info">
+                            <span class="movie-item-title">Mucize (Wonder)</span>
+                            <div class="movie-item-buttons">
+                                <i class="bi bi-play-circle-fill"></i>
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                <i class="bi bi-hand-thumbs-down-fill"></i>
+                                <i class="bi bi-plus-circle-fill"></i>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="movie-item">
+                        <img class="movie-item-img" src="images/f15.jpg" alt="">
+                        <div class="movie-item-info">
+                            <span class="movie-item-title">Dangal</span>
+                            <div class="movie-item-buttons">
+                                <i class="bi bi-play-circle-fill"></i>
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                <i class="bi bi-hand-thumbs-down-fill"></i>
+                                <i class="bi bi-plus-circle-fill"></i>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="movie-item">
+                        <img class="movie-item-img" src="images/f17.jpg" alt="">
+                        <div class="movie-item-info">
+                            <span class="movie-item-title">Gizli Sayılar (Hidden Figures)</span>
+                            <div class="movie-item-buttons">
+                                <i class="bi bi-play-circle-fill"></i>
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                <i class="bi bi-hand-thumbs-down-fill"></i>
+                                <i class="bi bi-plus-circle-fill"></i>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="movie-item">
+                        <img class="movie-item-img" src="images/f18.jpg" alt="">
+                        <div class="movie-item-info">
+                            <span class="movie-item-title">Rüzgarı Dizginleyen Çocuk</span>
+                            <div class="movie-item-buttons">
+                                <i class="bi bi-play-circle-fill"></i>
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                <i class="bi bi-hand-thumbs-down-fill"></i>
+                                <i class="bi bi-plus-circle-fill"></i>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="movie-item">
+                        <img class="movie-item-img" src="images/f19.jpg" alt="">
+                        <div class="movie-item-info">
+                            <span class="movie-item-title">Hachi: Bir Köpeğin Hikayesi</span>
+                            <div class="movie-item-buttons">
+                                <i class="bi bi-play-circle-fill"></i>
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                <i class="bi bi-hand-thumbs-down-fill"></i>
+                                <i class="bi bi-plus-circle-fill"></i>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="movie-item">
+                        <img class="movie-item-img" src="images/f20.jpg" alt="">
+                        <div class="movie-item-info">
+                            <span class="movie-item-title">Cennetin Cocukları</span>
+                            <div class="movie-item-buttons">
+                                <i class="bi bi-play-circle-fill"></i>
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                <i class="bi bi-hand-thumbs-down-fill"></i>
+                                <i class="bi bi-plus-circle-fill"></i>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <i class="bi bi-chevron-right arrow"></i>
+            </div>
+        </div>
+    </div>
+    
+    <div class="footer-links">
+                <ul class="footer-list">
+                    <a href="#" class="footer-list-item"><li class="footer-item">Anasayfa</li></a>
+                    <a href="#" class="footer-list-item"><li class="footer-item">4+ Yaş Film Önerileri</li></a>
+                    <a href="#" class="footer-list-item"><li class="footer-item">8+ Yaş Film Önerileri</li></a>
+                    <a href="#" class="footer-list-item"><li class="footer-item">Sinemadan Haberler</li></a>
+                </ul>
+            </div>
+            <div class="social-media">
+                <a href="#"><i class="bi bi-twitter footer-i"></i></a>
+                <a href="#"><i class="bi bi-pinterest footer-i"></i></a>
+                <a href="#"><i class="bi bi-instagram footer-i"></i></a>
+                <a href="#"><i class="bi bi-facebook footer-i"></i></a>
+            </div>
+        </div>
+        <div class="footer-right">
+            <p>Developed by <span>Canan WD</span><br>Çocukla Sinema Keyfi 2023 Tüm hakları Saklıdır.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
